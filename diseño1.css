@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.contenedor {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 34%, rgba(0,212,255,1) 100%);
+    display: flex;
+    align-items: center;
+}
+.img1 {
+    height: 30px;
+    margin-left: 50px;
+}
+.texto {
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.header {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    color: #fff;
+    background-image: url("./slayer2.0/sony-ps5-dualsense-wireless-controller-midnight-black-2560x1440-5437.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+a{
+    text-decoration:none;
+}
+
+.textbi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link {
+    color: white;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.titulo {
+    font-size: 50px
+}
+.contenido {
+    width: 100%;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 34%, rgba(0,212,255,1) 100%);
+
+}
+.carta{
+    border: solid 2px black;
+    height: 350px;
+    width: 250px;
+    margin: 40px;
+    border-radius: 5px;
+    box-shadow: 10px 10px  20px rgba(0, 0, 0, 0.572);
+    background: #000000;
+    
+}
+img{
+    width: 100%;
+}
+.img111{
+    width: 30px;
+    margin: 30px;
+
+}
+.botoncompra{
+    height: 40px;
+    width: 80%;
+    margin-left: 25px;
+    margin-top: 20px;
+    background-color: rgba(75, 75, 252, 0.778);
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 0px 0px 50px rgba(96, 150, 243, 0.069);
+    font-family: 'Montserrat', sans-serif;
+    border-style: none;
+    font-weight: 900;
+}
+
+button:hover{
+    background-color: #38f67e;
+    box-shadow: 0px 0px 50px #38f67e;
+}

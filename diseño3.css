@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: cambio 25s infinite;
+}
+.a1{
+    text-align: left;
+    margin-left: 10px;
+}
+.parrafo{
+
+    margin: 10px 0;
+}
+.pp{
+   width: 1100px;
+   background-size: cover;
+   border: solid 2px #ccc;
+   border-radius: 5px;
+   height: 80%;
+    animation: slayer 25s infinite;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+    height: 20px;
+    color: #fff;
+    margin-right: 35px;
+    margin-top: 10px;
+
+} 
+
+nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+
+}
+
+.cuerpocent{
+    width: 300px;
+    height: 85%;
+    padding: 20px;
+    ;
+}
+.titulo{
+    font-family: 'Montserrat', sans-serif;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-top: 30px;
+}
+
+.padre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.login{
+    width: auto;
+    min-height: 350px;
+    border: solid black 2px;
+    margin-right: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #cccccc53;
+}
+
+input{
+    height: 40px;
+    width: 250px;
+    border-style: none;
+    border-radius: 10px;
+    padding: 0px 7px;
+    margin-top: 10px;
+}
+.dl{
+    margin-top: 17px;
+}
+
+.logintitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: #0f5af0;
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 0px 0px 50px rgba(19, 97, 243, 0.942);
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+button:hover{
+    background-color: #ff006a;
+    box-shadow: 0px 0px 50px #ff006a;
+}
+
+a:hover{
+    border-radius: 5px;
+    color: #ff006a;
+}
+
+
+@keyframes slayer {
+    0%{
+        background-image: url(./slayer2.0/1173124.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    25%{
+        background-image: url(./slayer2.0/wp11371836.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./slayer2.0/20520129.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./slayer2.0/44454.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+@keyframes cambio {
+    0%{
+        background-image: url(./slayer2.0/1173124.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    25%{
+        background-image: url(./slayer2.0/wp11371836.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./slayer2.0/20520129.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./slayer2.0/44454.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
+@media (max-width: 600px) {
+    body{
+        position: absolute;
+        
+    }
+    .pp{
+        margin-top: 0;
+        min-width: 320px;
+        width: 100%;
+        height: auto;
+    }
+    .cuerpocent{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 250px 70px 300px ;
+        height: auto;
+        min-width: 350px;
+    }
+    .parrafo{
+        height: auto;
+    } 
+    nav{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr;
+        padding: 5px;
+    }
+    nav a{
+        font-size: 10x;
+        min-width: 30px;
+        margin-bottom: 20px;
+    } 
+  
+}
